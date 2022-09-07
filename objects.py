@@ -12,7 +12,7 @@ class Grumpy:
 		self.win = win
 
 		self.im_list = []
-		bird_color = random.choice(['red', 'blue', 'yellow'])   # agregue color verde y no ejecuta
+		bird_color = random.choice(['red', 'blue', 'yellow', 'green'])   # agregue color verde y no ejecuta
 		for i in range(1,4):
 			img =  pygame.image.load(f'Assets/Grumpy/{bird_color}{i}.png')
 			self.im_list.append(img)
