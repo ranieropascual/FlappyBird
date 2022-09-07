@@ -68,7 +68,7 @@ restart = False
 score = 0
 start_screen = True
 pipe_pass = False
-pipe_frequency = 1600
+pipe_frequency = 2000
 
 running =  True
 while running:
